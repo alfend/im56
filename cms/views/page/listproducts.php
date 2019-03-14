@@ -72,12 +72,7 @@ $this->title = 'Список товаров';
                 </form>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs view_list_prod">
-                <p><strong>Вид:</strong>
-                    <a href="#"><i class="glyphicon glyphicon-th"></i><span>Сетка</span></a>
-                    <a href="#"><i class="glyphicon glyphicon-th-list"></i><span>Список</span></a>
-                </p>
-            </div>
+
         </div>
     </div>
 
