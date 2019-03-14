@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e1b2a911-efb8-4401-a79c-a94730d39977" name="im56.ru" url="http://77.222.40.113">
+        <fileTransfer host="77.222.40.113" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
