@@ -9,6 +9,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Products;
+
 
 class SiteController extends Controller
 {
@@ -61,8 +63,15 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
+
+        $products_array = Products::find()->limit(4)->orderBy('name')-> all();
+        $products_array2 = Products::find()->limit(4)->orderBy('id')->all();
+        $products_array3 = Products::find() -> where(['not',['price_old' => '']])  -> limit(4)-> all();
+//where('price_old'<>'price')->and
+
         $this->layout='main';
-        return $this->render('index');
+        return $this->render('index', compact('products_array','products_array2','products_array3'));
     }
 
     /**

@@ -1,9 +1,1 @@
-<?php
-
-/* @var $this yii\web\View */
-
-$this->title = 'Список товаров';
-?>
-
-    <p>Новости</p>
-
+<?php/* @var $this yii\web\View */use yii\helpers\Url;$this->title = 'Новости';?><div class="row">    <div class="col-lg-12 contant_wrap">        <div class="navigation">            <!--хлебные крошки-->            <ul>                <li><a href="<?= URL::toRoute(['site/index']) ?>"><i class="glyphicon glyphicon-home"></i></a></li>                <li><span>Новости</span></li>            </ul>        </div>    </div></div><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    <div class="short_description">       <a href="<?= URL::toRoute(['page/news1']) ?>"> <img src="/images/ban1.jpg"></a>        <div>            <a href="<?= URL::toRoute(['page/news1']) ?>">   <h2>Снаряжение для туризма</h2></a>            <p>Широкий выбор туристического снаряжения</p>        </div>    </div>    <div class="short_description">        <a href="<?= URL::toRoute(['page/news2']) ?>"> <img src="/images/ban2.jpg"></a>        <div>            <a href="<?= URL::toRoute(['page/news2']) ?>"><h2>Снаряжение для альпинистов</h2></a>            <p>Качественное снаряжение для альпинизма от мировых брендов</p>        </div>    </div></div>

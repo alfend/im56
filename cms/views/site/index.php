@@ -1,169 +1,1 @@
-<?php
-
-/* @var $this yii\web\View */
-
-$this->title = 'Интернет магазин';
-?>
-
-
-<div class="container-fluid tabs_block_main">
-    <div class="container">
-        <div class="row">
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab1" data-toggle="tab">Хиты</a></li>
-                <li><a href="#tab2" data-toggle="tab">Новинки</a></li>
-                <li><a href="#tab3" data-toggle="tab">Акции</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="tab-content">
-                <div class="tab-pane fade in active" id="tab1">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod1.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod2.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod3.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod4.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="tab2">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod1.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod2.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="tab3">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod1.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="product">
-                            <a href="#" class="product_img">
-                                <span>-10%</span>
-                                <img src="images/prod2.jpg">
-                            </a>
-                            <a href="#" class="product_title">Рюкзак туристический</a>
-                            <div class="product_price">
-                                <span class="price">3500 руб</span>
-                                <span class="price_old">3700 руб</span>
-                            </div>
-                            <div class="product_btn">
-                                <a href="#" class="cart"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-                                <a href="#" class="mylist">Список желаний</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
+<?php/* @var $this yii\web\View */use yii\helpers\Html;use yii\helpers\Url;$this->title = 'Интернет магазин';?><div class="container-fluid tabs_block_main">    <div class="container">        <div class="row">            <ul class="nav nav-tabs">                <li class="active"><a href="#tab1" data-toggle="tab">Хиты</a></li>                <li><a href="#tab2" data-toggle="tab">Новинки</a></li>                <li><a href="#tab3" data-toggle="tab">Акции</a></li>            </ul>        </div>    </div>    <div class="container">        <div class="row">            <div class="tab-content">                <div class="tab-pane fade in active" id="tab1">                    <?php foreach ($products_array as $product): ?>                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">                            <div class="product">                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_img">                                    <!--    <span>-10%</span> -->                                    <img src="/images/<?php echo $product['img']; ?>">                                </a>                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_title"><?php echo $product['name']; ?></a>                                <div class="product_price">                                    <span class="price"><?php echo $product['price']; ?> руб</span>                                    <span class="price_old"><?php if ($product['price_old'] != '') {                                            echo $product['price_old'] . ' руб';                                        } ?></span>                                </div>                                <div class="product_btn">                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>"                                       data-id="<?= $product['id']; ?>" class="cart"><i                                                class="glyphicon glyphicon-shopping-cart"></i></a>                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>"                                       data-id="<?= $product['id']; ?>" class="mylist">Купить</a></div>                            </div>                        </div>                    <?php endforeach; ?>                </div>                <div class="tab-pane fade" id="tab2">                    <?php foreach ($products_array2 as $product): ?>                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">                            <div class="product">                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_img">                                    <!--    <span>-10%</span> -->                                    <img src="/images/<?php echo $product['img']; ?>">                                </a>                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_title"><?php echo $product['name']; ?></a>                                <div class="product_price">                                    <span class="price"><?php echo $product['price']; ?> руб</span>                                    <span class="price_old"><?php if ($product['price_old'] != '') {                                            echo $product['price_old'] . ' руб';                                        } ?></span>                                </div>                                <div class="product_btn">                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>" class="cart"                                       data-id="<?= $product['id']; ?>"><i                                                class="glyphicon glyphicon-shopping-cart"></i></a>                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>"                                       data-id="<?= $product['id']; ?>" class="mylist">Купить</a></div>                            </div>                        </div>                    <?php endforeach; ?>                </div>                <div class="tab-pane fade" id="tab3">                    <?php foreach ($products_array3 as $product): ?>                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">                            <div class="product">                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_img">                                    <!--    <span>-10%</span> -->                                    <img src="/images/<?php echo $product['img']; ?>">                                </a>                                <a href="<?= URL::toRoute(['page/product', 'id' => $product['id']]) ?>"                                   class="product_title"><?php echo $product['name']; ?></a>                                <div class="product_price">                                    <span class="price"><?php echo $product['price']; ?> руб</span>                                    <span class="price_old"><?php if ($product['price_old'] != '') {                                            echo $product['price_old'] . ' руб';                                        } ?></span>                                </div>                                <div class="product_btn">                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>"                                       data-id="<?= $product['id']; ?>" class="cart"><i                                                class="glyphicon glyphicon-shopping-cart"></i></a>                                    <a href="<?= URL::toRoute(['cart/add', 'id' => $product['id']]) ?>"                                       data-id="<?= $product['id']; ?>" class="mylist">Купить</a></div>                            </div>                        </div>                    <?php endforeach; ?>                </div>            </div>        </div>    </div></div>
